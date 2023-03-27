@@ -1,0 +1,149 @@
+header{
+    background-image: url(https://wallpapercave.com/wp/wp8185194.jpg);
+    background-size: cover;
+    background-position: 75% 25%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+header h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    z-index: 1;
+}
+#titolo {
+    background-color:
+      rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 111px;
+    bottom: 0;
+    height: 500px;
+    width: 100%;
+  }
+nav{
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size:14px;
+    padding: 20px;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+#links a{
+    cursor: pointer;
+    padding: 25px 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    letter-spacing: 2px;
+}
+#blocco{
+    width: 66.7%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foto_profilo{
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+   
+    z-index: 1;
+    border: 3px  solid gray;
+}
+footer{
+    background-color: black;
+    color :white;
+    text-align: center;
+    padding: 40px;
+}
+body{
+    font-family: 'lobster','arial';
+    font-style: normal;
+    font-weight: 500;
+    margin :0;
+}
+section{
+    justify-content: center;
+    
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+#blocco h3{
+    display: flex;
+    font-size: 0.9;
+    border: 3px solid black;
+    font-style: italic;
+    width: 66.7%;
+    margin-bottom: 120px;
+    bottom: 20px;
+}
+.macchina{
+
+ width: 66.7%;
+ align-items: center;   
+}
+#blocco h2{
+    display: flex;
+    font-size: 2em;
+    border: 3px solid black;
+    bottom: 20px;
+}
+f{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+#menu {
+    display: none;
+    }
+    
+    #menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    }
+    @media (max-width: 500px) {
+        #links {
+        display: none;
+        }
+        
+        #menu
+        {
+        display: block;
+        }
+    }
+@media(max-width:500px){
+ #titolo {
+    max-width: 450px;
+    max-height: 400px;
+ }
+}
+@media(max-width:500px){
+    body{
+        font-size: 15px;
+    }
+}
+@media(max-width:500px)
+{
+    header{
+        max-height: 400px;
+    }
+}
